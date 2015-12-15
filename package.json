@@ -1,0 +1,23 @@
+{
+  "name": "anotherway",
+  "version": "1.0.0",
+  "description": "gfw proxy",
+  "main": "proxy_agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengliqiang/anotherway.git"
+  },
+  "keywords": [
+    "http",
+    "proxy"
+  ],
+  "author": "fengliqiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengliqiang/anotherway/issues"
+  },
+  "homepage": "https://github.com/fengliqiang/anotherway#readme"
+}
