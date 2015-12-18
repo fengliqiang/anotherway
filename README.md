@@ -47,4 +47,4 @@
 
 注: daemon是后台加载程序，是为脱离shell而写的守护进程,windows用户不要使用，直接用node启动即可。
    + daemon 的编译:
-    ++ g++ daemon.cpp -o daemon
+    - g++ daemon.cpp -o daemon
