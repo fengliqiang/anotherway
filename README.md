@@ -44,8 +44,8 @@
      + 4-2 修改proxy_agent.js中第11行的ip地址为外部代理服务器的ip
      + 4-3 ./daemon node \`pwd\`/node_modules/anotherway/proxy_agent.js
     - Windows 系统
-     + 4-4 安装 nodejs
-       * 创建文件夹 c:\\anotherway
+     + 4-4 安装 nodejs:
+       * 创建文件夹 c:\\anotherway.
        * 下载proxy_agent.js 复制到 c:\\anotherway\\proxy_agent.js
        * 修改c:\\anotherway\\proxy_agent.js 文件，第11行ip地址改为墙外代理服务器的ip地址
        * 复制password文件到c:\\anotherway下
