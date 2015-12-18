@@ -45,11 +45,11 @@
      + 4-3 ./daemon node \`pwd\`/node_modules/anotherway/proxy_agent.js
     - Windows 系统
      + 4-4 安装 nodejs:
-       * 创建文件夹 c:\\anotherway.
-       * 下载proxy_agent.js 复制到 c:\\anotherway\\proxy_agent.js
-       * 修改c:\\anotherway\\proxy_agent.js 文件，第11行ip地址改为墙外代理服务器的ip地址
-       * 复制password文件到c:\\anotherway下
-       * 运行 node c:\\anotherway\\proxy_agent.js
+       1. 创建文件夹 c:\\anotherway.
+       2. 下载proxy_agent.js 复制到 c:\\anotherway\\proxy_agent.js
+       3. 修改c:\\anotherway\\proxy_agent.js 文件，第11行ip地址改为墙外代理服务器的ip地址
+       4. 复制password文件到c:\\anotherway下
+       5. 运行 node c:\\anotherway\\proxy_agent.js
    5. 修改浏览器：
       + firefox ：首选项=>高级=>网络=>设置=>自动代理配置: 如果内部代理部署在本机，则设置为http://127.0.0.1:8090/pac.js ,否则，将127.0.0.1该为内部代理服务器的ip地址。
       + ie, chrome: internet选项=>连接=>局域网设置=>选中使用自动配置脚本:地址同上设置。
