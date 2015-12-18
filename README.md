@@ -36,12 +36,12 @@
    1. 墙外申请代理服务器,安装nodejs.<br>
    2. 准备一个password文件,内容尽量为随机字符,复制到内部http代理服务器和外部代理服务器各一份<br>
    3. 登陆外部代理服务器: 
-      + 运行: mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/ && ./daemon \`pwd\`/node_modules/anotherway/proxy_server.js<br>
+      + 运行: mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/ && ./daemon node  \`pwd\`/node_modules/anotherway/proxy_server.js<br>
    
    4. 登陆内部代理服务器: 
      + 4-1 mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/
      + 4-2 修改proxy_agent.js中第11行的ip地址为外部代理服务器的ip
-     + 4-3 ./daemon \`pwd\`/node_modules/anotherway/proxy_agent.js
+     + 4-3 ./daemon node \`pwd\`/node_modules/anotherway/proxy_agent.js
      
    5. 修改浏览器：
       + firefox ：首选项=>高级=>网络=>设置=>自动代理配置: 如果内部代理部署在本机，则设置为http://127.0.0.1:8090/pac.js ,否则，将127.0.0.1该为内部代理服务器的ip地址。
