@@ -30,3 +30,10 @@
 
 #####
 
+部署步骤:
+
+   1、墙外申请代理服务器,安装nodejs.
+   2、准备一个password文件,内容尽量为随机字符,复制到内部http代理服务器和外部代理服务器各一份
+   3、登陆外部代理服务器: mkdir node_modules && npm install anotherway && cp password node_modules/anotherway && ./daemon `pwd`/node_modules/anotherway/proxy_server.js
+   
+   
