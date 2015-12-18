@@ -37,8 +37,8 @@
    3.登陆外部代理服务器: mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/ && ./daemon `pwd`/node_modules/anotherway/proxy_server.js<br>
    
    4.登陆内部代理服务器: 
-     +4-1 mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/
-     +4-2 修改proxy_agent.js中第11行的ip地址为外部代理服务器的ip
-     +4-3 ./daemon `pwd`/node_modules/anotherway/proxy_agent.js
+     + 4-1 mkdir node_modules && npm install anotherway && cp password node_modules/anotherway/
+     + 4-2 修改proxy_agent.js中第11行的ip地址为外部代理服务器的ip
+     + 4-3 ./daemon `pwd`/node_modules/anotherway/proxy_agent.js
      
    
